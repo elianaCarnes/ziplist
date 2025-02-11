@@ -21,5 +21,3 @@ function zipListTheFunctionalWay<T>(list1: T[], list2: T[]): T[] {
 
 console.log(zipList(['a', 'b', 'c'], [1, 2, 3]));
 console.log(zipListTheFunctionalWay(['a', 'b', 'c'], [1, 2, 3])); 
-
-export { zipList, zipListTheFunctionalWay };
